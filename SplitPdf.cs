@@ -44,6 +44,7 @@ namespace iTextSharpTest
             //doc1.Close();
             //writer.Close();
             ExtractPages(@"C:\Users\a0933\Desktop\progit.pdf", @"C:\Users\a0933\Desktop\new.pdf", 8, 12);
+            //如果outputpath有此檔案，就會複寫它
         }
     }
 }
